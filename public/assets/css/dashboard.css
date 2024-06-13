@@ -1,0 +1,280 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.left-side-menu.customLeftSidebar .logo-box {
+    height: 120px;
+    background-color: #092078;
+}
+
+.left-side-menu.customLeftSidebar a.logo.logo-light.text-center {
+    line-height: 120px;
+}
+
+.left-side-menu.customLeftSidebar {
+    padding-top: calc(120px + 20px);
+    background-color: #092078;
+}
+
+.navbar-custom.customNavbarTop i.fe-message-square {
+    font-size: 22px;
+    line-height: 45px;
+    position: relative;
+    top: 5px;
+}
+
+.navbar-custom .topnav-menu .nav-link {
+    color: #092078;
+}
+
+.navbar-custom.customNavbarTop {
+    background-color: #F8F8F8;box-shadow: 0 5px 30px 0 rgb(0 0 0 / 15%);
+}
+
+.navbar-custom .button-menu-mobile {
+    color: #092078;
+}
+span.pro-user-name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.customSideBar {
+    padding-top: 60px !important;
+}
+
+.customSideBar li a {
+    font-size: 20px !important;
+    color: #fff !important;
+    border-bottom: 1px solid #707070;
+    padding: 20px 20px !important;
+}
+
+.customSideBar li a i {
+    color: #FFC600;
+    font-size: 20px !important;
+    margin-right: 20px !important;
+}
+
+.customSideBar li a.active {
+    color: #FFC600 !important;
+}
+
+.customSideBar li a:hover {
+    color: #FFC600 !important;
+}
+
+.customSideBar li:last-child a {
+    border: 0;
+}
+
+li.topNavLogo {
+    position: relative;
+    top: 7px;
+}
+
+footer.footer {
+    background-color: #F8F8F8;
+    color: #666666;
+}
+
+footer.footer a {
+    font-weight: 600;
+    font-style: italic;
+    color: #666666;
+    transition: 400ms all;
+}
+
+footer.footer a:hover {
+    color: #FFC600;
+}
+
+.pageTop {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.pageTop h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #092078;
+}
+
+.paymentForm h4 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+ul.paymentCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.fieldBox label {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+
+.fieldBox input {
+    border: 1px solid #E0E0E0;
+    padding: 14px 15px;
+    border-radius: 5px;
+}
+
+.fieldBox {
+    margin-bottom: 30px;
+}
+
+
+.fieldBoxBTN a {
+    background-color: #FFC600;
+    border-color: #FFC600;
+    font-weight: 600;
+    color: #000;
+    font-size: 14px;
+    padding: 6.5px 17px;
+    border-radius: 5px;
+    transition: 400ms all;
+}
+
+.fieldBoxBTN a:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.orderSummaryBox {
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+.orderSummaryBox .card-header {
+    background-color: #092078;
+    padding: 20px 0;
+}
+
+.orderSummaryBox .card-header h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+ul.orderSummaryList {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.orderSummaryList li {
+    font-size: 17px;
+    color: #212529;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #707070;
+    padding: 12px 0;
+}
+
+ul.orderSummaryList li strong {
+    font-weight: 700;
+}
+
+ul.orderSummaryList li:last-child {
+    border-bottom: 0;
+}
+
+
+/* Custom Modal */
+
+.customModal .modal-dialog.modal-dialog-centered {
+    width: 382px;
+}
+
+.customModal .modal-body {
+    text-align: center;
+    padding: 60px 32px 52px 32px;
+}
+
+div.customModal {
+    background-color: rgb(0 0 0 / 33%);
+}
+
+.customModal .modal-content {
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px #00000038;
+}
+
+lottie-player {
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px){
+    .heading-1 {
+        font-size: 27px;
+    }
+
+    .heading-2 {
+        font-size: 23px;
+    }
+
+    .pageTop h1 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 1415px){
+    .booking-btns {
+        text-align: center;
+    }
+    
+    .booking-btns .btn:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .booking-content p.book-text {
+        font-size: 18px;
+        
+    }
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 991px){
+.booking-content p.book-text {
+    font-size: 18px;
+    text-align: center;
+}
+
+p.book-text.m-0 {
+    margin-bottom: 30px !important;
+}
+
+.booking-btns .btn:not(:last-child) {
+    margin-bottom: 0;
+}
+
+
+}
+
+@media only screen and (max-width: 767px){
+
+.book-img.text-center {
+    margin-bottom: 30px;
+}
+}

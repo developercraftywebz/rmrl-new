@@ -1,0 +1,220 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.authPage .auth-brand {
+    position: unset;
+}
+
+.auth-fluid.register-auth-field {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: row;
+    align-items: stretch;
+    background: url(../images/register-bg.png) center;
+    background-size: cover;
+}
+
+
+.registerCheckBox .form-check-input:checked[type=checkbox] {
+    background-color: #FFC600 !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e") !important;
+}
+
+.authPage h4 {
+    font-size: 30px;
+    color: #FFC600;
+    margin-bottom: 30px;
+}
+
+.signInCheckBox {
+    margin-bottom: 30px;
+}
+
+.signInCheckBox label.form-check-label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.authPage {
+    background-color: #092078 !important;
+}
+
+.signInPage .form-check-input[type=radio] {
+    border: 1px solid #FFECAB;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+}
+
+.signInPage .form-check-input:checked {
+    background-color: #FFC600;
+}
+
+.signInCheckBox .form-check-inline {
+    line-height: 32px;
+    margin-right: 30px;
+}
+
+.fieldBox label {
+    font-size: 16px;
+    color: #fff;
+}
+
+.fieldBox input {
+    border: 1px solid #E0E0E0;
+    padding: 8.5px 15px;
+    font-size: 14px;
+    color: #868D96 !important;
+    border-right: 0;
+    border-radius: 5px !important;
+}
+
+.fieldBox p {
+    color: #868E96;
+    margin: 5px 0 10px 0;
+    font-size: 12px;
+}
+
+.fieldBox {
+    margin-bottom: 20px;
+}
+
+.fieldBox .input-group-text {
+    background-color: #fff;
+    border-top-left-radius: 0 !important;
+}
+
+.fieldBox input#password, .fieldBox input#confirmPassword {
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.fieldBox .form-check-input[type=checkbox] {
+    padding: inherit;
+    border: inherit;
+}
+
+.fieldBox label.form-check-label {
+    font-weight: 400;
+}
+
+.customFieldFlex {
+    margin-top: 24px;
+}
+
+.fieldBox a {
+    margin-top: 8px;
+    color: #78F2FF !important;
+    transition: 400ms all;
+}
+
+.fieldBox a:hover {
+    color: #fff !important;
+}
+
+.fieldBoxBTN a {
+    border-radius: 5px;
+    background-color: #FFC600;
+    border-color: #FFC600;
+    font-weight: 600;
+    color: #000;
+    font-size: 14px;
+}
+
+footer.authFooter p.text-muted {
+    color: #fff !important;
+    margin-top: 30px;
+}
+
+footer.authFooter p.text-muted a {
+    margin-left: 5px !important;
+    font-size: 16px;
+    color: #78F2FF !important;
+    transition: 400ms all;
+}
+
+footer.authFooter p.text-muted a:hover {
+    color: #fff !important;
+}
+
+.fieldBoxBTN a.btn-primary {
+    padding: 6.5px 17px;
+    border-radius: 5px;
+    transition: 400ms all;
+}
+
+.fieldBoxBTN a.btn-primary:hover {
+    background-color: #000;
+    border-color: #000;
+}
+
+
+.container-i {
+    width: 35% !important;
+}
+
+
+.authPage .card-body {
+    padding: 1.5rem 5rem;
+}
+
+.auth-fluid-form-box.authPage.signInPage {
+    max-width: 650px;
+}
+
+.registerCheckBox label.form-check-label {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.registerCheckBox input#checkbox-contractor, .registerCheckBox input#checkbox-residential, .registerCheckBox input#checkbox-smallOffice, .registerCheckBox input#checkbox-stores {
+    background-color: transparent;
+    border-color: #FFECAB;
+    width: 25px;
+    height: 25px;
+}
+
+.registerCheckBox {
+    margin-bottom: 25px;
+}
+.selectLabel label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.register-auth-field .customFieldFlex label {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.register-auth-field .customFieldFlex {
+    margin-bottom: 30px;
+    margin-top: -5px !important;
+}
+
+.contractorBox{
+    display: none;
+}
+
+
+@media only screen and (max-width: 767px){
+
+.authPage .card-body {
+    padding: 1.5rem 1.5rem;
+}
+
+}

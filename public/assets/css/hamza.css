@@ -1,0 +1,588 @@
+:root {
+    --blue: #092078;
+    --yellow: #ffc600;
+    --gray: #999999;
+    --white: #ffffff;
+}
+
+.blue-text {
+    color: var(--blue) !important;
+}
+
+.green-text{
+    color: #1D8D11;
+}
+
+.red-text{
+    color: #D2000E;
+}
+
+.gray-text {
+    color: #999999;
+}
+
+.para {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.heading-1 {
+    font-size: 40px;
+    font-family: "Poppins";
+    font-weight: 700;
+}
+
+.heading-2 {
+    font-size: 30px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.rating-txt {
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.heading-3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.heading-4 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.blue-btn {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.blue-btn:hover {
+    background-color: #ffc600;
+    color: black !important;
+}
+
+.yellow-btn {
+    background-color: var(--yellow);
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.theme-button {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.theme-button:hover {
+    color: #ffffff;
+    background-color: black;
+}
+
+.custumPage {
+    background: #f0f1f3;
+}
+
+/* *************************** Styling Start **************************************** */
+
+/* auth modal styling  */
+
+#authModal .modal-dialog.modal-dialog-centered {
+    width: 382px;
+}
+
+#authModal .modal-body {
+    text-align: center;
+    padding: 60px 32px 52px 32px;
+}
+
+div#authModal {
+    background-color: rgb(0 0 0 / 33%);
+}
+
+#authModal .modal-content {
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px #00000038;
+}
+
+lottie-player {
+    margin: 0 auto;
+}
+
+footer.authFooter.otp-edit {
+    margin-left: 70px;
+}
+
+/* verify code page styling  */
+
+div#code-field input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    color: #212529 !important;
+}
+
+div#code-field {
+    display: flex;
+}
+
+div#code-field input::-webkit-outer-spin-button,
+div#code-field input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+div#code-field input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+div#code-field input:not(:last-child) {
+    margin-right: 24px;
+}
+
+/***************************************** dashboard styling start  *****************************************/
+
+.homePage-bg {
+    background-image: url(../images/main-bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main-h .main-content {
+    margin-top: 57px !important;
+    margin-bottom: 40px !important;
+}
+
+.cards-section .card {
+    border-radius: 10px;
+    box-shadow: 0px 15px 20px #00000026;
+}
+
+/* .main-h .cards-section .col-lg-3 {
+      padding-right: 10px;
+      padding-left: 10px;
+  } */
+
+.card-foot .num-range input {
+    width: 74% !important;
+    padding: 8px 10px !important;
+    border: 1px solid lightgray !important;
+    border-radius: 10px !important;
+    font-size: 19px;
+}
+
+.card-foot input::-webkit-outer-spin-button,
+.card-foot input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.card-foot input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+#main-dashboard {
+    padding-bottom: 10%;
+}
+
+.services-section .services-content h2.heading-2 {
+    font-weight: 400;
+    color: #ffc600;
+    margin-top: 97px;
+}
+
+.services-card .card {
+    padding: 50px 30px;
+    background: var(--blue);
+}
+
+.services-card .card {
+    padding: 50px 67px 50px 32px;
+    background: var(--blue);
+    border-radius: 15px;
+    border: 1px solid white;
+    box-shadow: 0px 10px 50px #0920782b;
+}
+
+.services-card h2 {
+    color: white !important;
+    font-weight: bold;
+}
+
+.services-card .card p {
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+}
+
+#services-start {
+    display: none;
+}
+
+/* ***************************** House cleaning Page Styling ****************************** */
+
+.checks-item label.form-check-label {
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 14px;
+    color: #212529;
+}
+
+.checks-item .form-check-input {
+    width: 19px;
+    height: 19px;
+}
+
+.checks-item .form-check-input:checked {
+    background-color: #ffc600;
+    border: 2px solid #092078;
+    box-shadow: none;
+}
+
+.checks-item .form-check-input:checked[type="checkbox"] {
+    background-image: url("../images/tick.png");
+}
+
+.checks-item .form-check-input {
+    border: 1px solid rgb(0 0 0);
+}
+
+.card.booking-card .card-header {
+    background: #092078;
+    padding: 18px 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.booking-card .card-header h3.heading-3 {
+    color: white;
+}
+
+.booking-card {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+}
+
+ul.checks-list {
+    height: 536px !important;
+    overflow-y: scroll !important;
+}
+
+li.checks-item {
+    margin-bottom: 21px !important;
+}
+
+/* scroll bar styling  */
+
+ul.checks-list::-webkit-scrollbar {
+    width: 5px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+ul.checks-list::-webkit-scrollbar-thumb {
+    background: #e2e2e2;
+    border-radius: 10px;
+}
+
+ul.checks-list::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+.cleaning-form label.form-label {
+    font-size: 17px !important;
+    font-weight: 700 !important;
+}
+
+.cleaning-form .input-group.clockpicker {
+    width: 140px;
+}
+
+.clock-field label.form-label {
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    margin-bottom: 5px;
+}
+
+.cleaning-form .form-control {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    font-size: 15px !important;
+}
+
+.cleaning-form {
+    padding-right: 38px;
+    padding-left: 38px;
+}
+
+/* ****************************** Bookings page styling ********************************** */
+
+.booking-content p.book-text {
+    font-size: 26px;
+    color: #666666;
+}
+
+.booking-content p.book-text span b {
+    font-weight: 700 !important;
+    color: black;
+}
+
+.booking-content p.book-text:not(:last-child) {
+    margin-bottom: 26px;
+}
+
+.booking-btns .btn {
+    border-radius: 5px;
+    padding: 7px 20px;
+}
+
+.booking-btns .btn:not(:last-child) {
+    margin-right: 20px;
+}
+
+.row.content-row {
+    position: relative;
+}
+
+.row.content-row::after {
+    content: "";
+    width: 92%;
+    height: 1px;
+    background: black;
+    position: absolute;
+    bottom: -26px;
+    left: 12px;
+}
+
+/* ******************************************** Booking Form page Styling ******************************** */
+
+#booking-form .col-lg-4 .cleaning-form {
+    padding-left: 0px;
+    padding-right: 65px;
+}
+
+#booking-form .card.booking-card {
+    margin: 34px 85px 34px 34px;
+    padding-bottom: 25px;
+}
+
+p.services-items {
+    font-size: 17px;
+    font-weight: 400;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin: 0;
+    padding: 0;
+    padding: 10px 0px;
+    line-height: 27px;
+}
+
+/* *************************************** Profile Page Styling *********************************  */
+
+.profile-sec .fields-sec {
+    padding: 44px 56px 42px 56px;
+    background-color: white;
+    box-shadow: 0px 5px 16px lightgrey;
+}
+
+.profile-sec .fields-sec {
+    padding: 44px 56px 42px 56px;
+    background-color: white;
+    box-shadow: 0px 3px 6px lightgrey;
+}
+
+.profile-sec .profile-detail {
+    padding: 44px 0px 44px 0px;
+    background-color: white;
+    box-shadow: 0px 3px 6px lightgrey;
+}
+
+/* profile file type stylig  */
+
+.profile-img {
+    /* transform: translateY(-90px); */
+    /* border-radius: 100%; */
+    overflow: hidden;
+    /* width: 300px; */
+    /* height: 300px; */
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.profile-img input {
+    display: none;
+}
+
+.profile-img img {
+    position: absolute;
+    object-fit: cover;
+    /* width: 300px;
+      height: 300px; */
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
+    /* border-radius: 100px; */
+    z-index: 0;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+}
+
+.profile-img .-label {
+    cursor: pointer;
+    height: 140px;
+    width: 130px;
+    margin: 0px !important;
+}
+
+.profile-img:hover .-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 10000;
+    color: #fafafa;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 20px;
+    /* margin-bottom: 0; */
+}
+
+.profile-img span {
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+i.fa.fa-paperclip {
+    color: black;
+    z-index: 99;
+    /* display: block; */
+    margin-top: 129px;
+    /* margin-left: 213px; */
+    position: relative;
+    left: 25%;
+    font-size: 20px;
+}
+
+#change-psw-text {
+    font-size: 12px;
+    margin-top: 12px;
+    text-align: right;
+    color: #606060;
+    justify-content: end;
+    font-weight: 700;
+    display: none;
+    position: absolute;
+    right: 6px;
+    cursor: pointer;
+}
+
+#profile i.fa.fa-paperclip {
+    padding: 12px;
+    background: white;
+    border-radius: 100%;
+    color: gray;
+    border: 1px solid;
+    font-size: 16px;
+    margin-top: 100px;
+}
+
+.profile-detail h3.head3 {
+    font-size: 24px;
+    font-weight: 700 !important;
+}
+
+.profile-content p {
+    font-size: 18px;
+}
+
+.profile-sec .fields-sec {
+    padding: 30px 56px 42px 40px;
+}
+
+.pf-form label.form-label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 11px;
+}
+
+.pf-form .form-control {
+    border-radius: 0px;
+    padding: 20px;
+    border: 1px solid #DDDDDD;
+    font-size: 16px;
+}
+.pf-form .row {
+    margin-bottom: 11px;
+}
+
+.pf-form button.btn {
+    background: #252525;
+    color: white;
+    width: 95px;
+    height: 36px;
+    border-radius: 7px;
+}
+
+
+/* record log page styling  */
+
+
+.record-table .table thead {
+    background: #092078;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 16%);
+}
+
+.record-table {
+    padding: 9px 60px 50px 60px;
+}
+
+.record-table tbody tr td {
+    font-size: 20px;
+    padding: 25px;
+    font-weight: 500;
+}
+
+.record-table tbody {
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.record-table tbody tr {
+    border-bottom: 0;
+}
+
+.record-table tbody tr td {
+    border-bottom: 0;
+    border-right: 1px solid;
+}
+
+.record-table tr.even {
+    background: white;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 16%);
+}
+
+
+.record-table thead th {
+    padding: 17px;
+}

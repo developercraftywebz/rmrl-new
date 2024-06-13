@@ -1,0 +1,111 @@
+/* FONTS */
+
+h2.login-heading {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+}
+
+p.p-font-light-19 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+/* PASS RESET PAGE */
+
+.form-control::placeholder, .form-select::placeholder {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.form-control,select.form-select {
+    padding: 18px;
+    border: 1px solid #DADCE0;
+}
+
+select.form-select {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+/* FONTS */
+
+/* EMAIL SENT */
+
+.color_txt_green {
+    color: #239900;
+}
+
+/* EMAIL SENT */
+
+/* LOGIN SCREEN CSS */
+
+.account-pages {
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-position: bottom;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+a.google_btn.w-75 {
+    box-shadow: 0px 5px 5px 5px #b4b0b02e;
+    margin: auto;
+    padding: 20px !important;
+    color: #64686D;
+}
+
+.register-signup-btn {
+    width: fit-content;
+    margin: auto;
+    background-color: #F2134F;
+    border: 0 !important;
+    padding: 15px 120px;
+    border-radius: 5px;
+    font-size: 22px !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    transition: 0.5s;
+    display: table;
+    font-weight: 300;
+}
+
+.register-signup-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+p.condition-or {
+    position: relative;
+    display: inline-block;
+}
+
+p.condition-or:before {
+    content: "";
+    background-color: #000;
+    width: 13em;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    right: 110%;
+    transform: translateY(-50%);
+}
+
+p.condition-or:after {
+    content: "";
+    background-color: #000;
+    width: 13em;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 110%;
+    transform: translateY(-50%);
+}
+
+/* LOGIN SCREEN CSS */
