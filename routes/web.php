@@ -24,10 +24,13 @@ Route::get('/', function () {
 
 
 Auth::routes();
-Route::get('/profile', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::post('/profile', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 // Functions for admins only
 Route::middleware(['admin.user'])->group(function () {
+
+    Route::get('/user/dashboard', [HomeController::class, 'index'])->name('user.dashboard.index');
+
     Route::get('/profile/edit', [App\Http\Controllers\Admin\ProfileController::class, 'index'])->name('profile.index');
 
     // {{HTML::link}}

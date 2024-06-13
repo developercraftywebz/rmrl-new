@@ -32,6 +32,7 @@
     </head>
 
     <body class="loading">
+        
 
         <!-- Begin page -->
         <div id="wrapper">
@@ -55,7 +56,7 @@
 
                         <li class="dropdown notification-list topbar-dropdown">
                             <a class="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                                <img src="assets/images/dashboard/ic_Chat-6.png" class="img-fluid"/>
+                                <img src="{{asset('asset/images/dashboard/ic_Chat-6.png')}}" class="img-fluid"/>
                                 <span class="badge bg-danger rounded-circle noti-icon-badge">5</span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-end dropdown-lg">
@@ -86,7 +87,7 @@
                                     <!-- item-->
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                                         <div class="notify-icon">
-                                            <img src="../assets/images/users/avatar-2.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                            <img src="{{asset('asset/images/users/avatar-2.jpg ')}}" class="img-fluid rounded-circle" alt="" /> </div>
                                         <p class="notify-details">Mario Drummond</p>
                                         <p class="text-muted mb-0 user-msg">
                                             <small>Hi, How are you? What about our next meeting</small>
@@ -96,7 +97,7 @@
                                     <!-- item-->
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                                         <div class="notify-icon">
-                                            <img src="../assets/images/users/avatar-4.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                            <img src="{{asset('asset/images/users/avatar-4.jpg')}}" class="img-fluid rounded-circle" alt="" /> </div>
                                         <p class="notify-details">Karen Robinson</p>
                                         <p class="text-muted mb-0 user-msg">
                                             <small>Wow ! this admin looks good and awesome design</small>
@@ -177,7 +178,7 @@
                                     <!-- item-->
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                                         <div class="notify-icon">
-                                            <img src="../assets/images/users/avatar-2.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                            <img src="{{asset('asset/images/users/avatar-2.jpg')}}" class="img-fluid rounded-circle" alt="" /> </div>
                                         <p class="notify-details">Mario Drummond</p>
                                         <p class="text-muted mb-0 user-msg">
                                             <small>Hi, How are you? What about our next meeting</small>
@@ -187,7 +188,7 @@
                                     <!-- item-->
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                                         <div class="notify-icon">
-                                            <img src="../assets/images/users/avatar-4.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                            <img src="{{asset('asset/images/users/avatar-4.jpg')}}" class="img-fluid rounded-circle" alt="" /> </div>
                                         <p class="notify-details">Karen Robinson</p>
                                         <p class="text-muted mb-0 user-msg">
                                             <small>Wow ! this admin looks good and awesome design</small>
@@ -237,7 +238,7 @@
     
                         <li class="dropdown notification-list topbar-dropdown">
                             <a class="nav-link dropdown-toggle nav-user me-0 waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                                <img src="assets/images/dashboard/Group 22.png" alt="user-image" class="rounded">
+                                <img src="{{asset('asset/images/dashboard/Group 22.png')}}" alt="user-image" class="rounded">
                                 <span class="pro-user-name ms-1">
                                      <i class="mdi mdi-chevron-down"></i> 
                                 </span>
@@ -272,13 +273,13 @@
                                     <span>Lock Screen</span>
                                 </a>
 
-                                <div class="dropdown-divider"></div>
+                                <!--<div class="dropdown-divider"></div>-->
 
                                 <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <i class="ri-logout-box-line"></i>
-                                    <span>Logout</span>
-                                </a>
+                                <!--<a href="javascript:void(0);" class="dropdown-item notify-item">-->
+                                <!--    <i class="ri-logout-box-line"></i>-->
+                                <!--    <span>Logout</span>-->
+                                <!--</a>-->
     
                             </div>
                         </li>
@@ -290,7 +291,7 @@
                     <!-- <div class="logo-div">
                         <a href="index.html" class="logo">
                             <div class="logo-img">
-                                <img src="assets/images/dashboard/logo.png" alt="">-->
+                                <img src="asset/images/dashboard/logo.png" alt="">-->
                                 <!-- <span class="logo-lg-text-light">Minton</span> -->
                             <!-- </div>
                         </a>
@@ -339,7 +340,7 @@
                                             <!-- item-->
                                             <a href="javascript:void(0);" class="dropdown-item notify-item">
                                                 <div class="d-flex">
-                                                    <img class="d-flex me-2 rounded-circle" src="../assets/images/users/avatar-2.jpg" alt="Generic placeholder image" height="32">
+                                                    <img class="d-flex me-2 rounded-circle" src="{{asset('asset/images/users/avatar-2.jpg')}}" alt="Generic placeholder image" height="32">
                                                     <div>
                                                         <h5 class="m-0 font-14">Erwin E. Brown</h5>
                                                         <span class="font-12 mb-0">UI Designer</span>
@@ -350,7 +351,7 @@
                                             <!-- item-->
                                             <a href="javascript:void(0);" class="dropdown-item notify-item">
                                                 <div class="d-flex">
-                                                    <img class="d-flex me-2 rounded-circle" src="../assets/images/users/avatar-5.jpg" alt="Generic placeholder image" height="32">
+                                                    <img class="d-flex me-2 rounded-circle" src="{{asset('asset/images/users/avatar-5.jpg')}}" alt="Generic placeholder image" height="32">
                                                     <div>
                                                         <h5 class="m-0 font-14">Jacob Deo</h5>
                                                         <span class="font-12 mb-0">Developer</span>
@@ -377,7 +378,7 @@
                 <div class="logo-area">
                     <a href="index.html" class="logo">
                         <div class="logo-img">
-                            <img src="assets/images/dashboard/RMRL-Logo-CW2-Black (2).png" class="img-fluid" alt="">
+                            <img src="{{asset('asset/images/dashboard/RMRL-Logo-CW2-Black (2).png')}}" class="img-fluid" alt="">
                             <!-- <span class="logo-lg-text-light">Minton</span> -->
                         </div>
                     </a>
@@ -387,7 +388,7 @@
 
                     <!-- User box -->
                     <div class="user-box text-center">
-                        <img src="../assets/images/users/avatar-1.jpg" alt="user-img" title="Mat Helme"
+                        <img src="{{asset('asset/images/users/avatar-1.jpg')}}" alt="user-img" title="Mat Helme"
                             class="rounded-circle avatar-md">
                         <div class="dropdown">
                             <a href="#" class="text-reset dropdown-toggle h5 mt-2 mb-1 d-block"
@@ -428,9 +429,9 @@
 
                         <ul id="login-name">
                             <li>
-                                    <img src="assets/images/dashboard/Group 22.png" alt="user-image" class="rounded">
+                                    <img src="{{asset('asset/images/dashboard/Group 22.png')}}" alt="user-image" class="rounded">
                                     <span class="pro-user-name ms-1">
-                                         John Doe
+                                         {{auth()->user()->first_name . '    ' . auth()->user()->last_name}}
                                     </span>
                             </li>
                         </ul>
@@ -439,46 +440,53 @@
                             <!-- <li class="menu-title">Navigation</li> -->
                             <li>
                                 <a href="#">
-                                    <image class="" src="assets/images/dashboard/ic_Dashboard.png" />
+                                    <image class="" src="{{asset('asset/images/dashboard/ic_Dashboard.png')}}" />
                                     <span> Home </span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <image class="" src="assets/images/dashboard/ic_Dashboard-2.png" />
+                                    <image class="" src="{{asset('asset/images/dashboard/ic_Dashboard-2.png')}}" />
                                     <span> Explore </span>
                                 </a>
                             </li>
+                            @if(auth()->user()->role_id == 3)
                             <li>
-                                <a href="#">
-                                    <image class="" src="assets/images/dashboard/ic_Dashboard-3.png" />
+                                <a href="{{route('users.index')}}">
+                                    <image class="" src="{{asset('asset/images/dashboard/ic_Dashboard-3.png')}}" />
                                     <span> User Management </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <image class="" src="assets/images/dashboard/ic_Dashboard-4.png" />
+                                <a href="{{ route('subscriptions.index') }}">
+                                    <image class="" src="{{asset('asset/images/dashboard/ic_Dashboard-4.png')}}" />
                                     <span> Subscription </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <image class="" src="assets/images/dashboard/ic_Dashboard-5.png" />
+                                <a href="{{route('cms')}}">
+                                    <image class="" src="{{asset('asset/images/dashboard/ic_Dashboard-5.png')}}" />
                                     <span> CMS </span>
                                 </a>
                             </li>
+                  
                             <li>
-                                <a href="#">
-                                    <image class="" src="assets/images/dashboard/ic_Chat7.png" />
+                                <a href="{{ route('chat') }}">
+                                    <image class="" src="{{asset('asset/images/dashboard/ic_Chat7.png')}}" />
                                     <span> Messages </span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">
-                                    <image class="" src="assets/images/dashboard/ic_Dashboard-9.png" />
-                                    <span> Logout </span>
-                                </a>
-                            </li>
+                            @endif
+                          <li>
+    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+        @csrf
+    </form>
+    <a href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+        <img src="{{ asset('asset/images/dashboard/ic_Dashboard-9.png') }}" alt="Logout Icon" />
+        <span> Logout </span>
+    </a>
+</li>
+
                 
                             
                         </ul>
@@ -519,9 +527,9 @@
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <ul class="what-post d-flex justify-content-between gap-2">
-                                                            <li class="what-post-item"><img src="assets/images/dashboard/PP1.png"  class="img-fluid"/></li>
+                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/PP1.png')}}"  class="img-fluid"/></li>
                                                             <li class="what-post-item what-post-input"><input type="text" name="what" placeholder="What’s on your mind?"></li>
-                                                            <li class="what-post-item"><img src="assets/images/dashboard/ic_Image.png"  class="img-fluid"/></li>
+                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/ic_Image.png')}}"  class="img-fluid"/></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -530,11 +538,11 @@
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <ul class="what-post d-flex justify-content-between gap-2">
-                                                            <li class="what-post-item"><img src="assets/images/dashboard/PP1.png"  class="img-fluid"/></li>
+                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/PP1.png')}}"  class="img-fluid"/></li>
                                                             <li class="what-post-item post-name"><h4 class="post-title">RMRL</h4>
                                                                                                     <p>12 April at 09.28 PM</p>
                                                             </li>
-                                                            <li class="what-post-item"><img src="assets/images/dashboard/ic_Image.png"  class="img-fluid"/></li>
+                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/ic_Image.png')}}"  class="img-fluid"/></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -547,10 +555,10 @@
                                                     <div class="col-12">
                                                         <p class="post-status">Recent</p>
                                                         <p class="post-desc">Images.... Fashion For Men</p>
-                                                        <img class="my-3 img-fluid" src="assets/images/dashboard/Post Photos.png"  class="img-fluid"/>
+                                                        <img class="my-3 img-fluid" src="{{asset('asset/images/dashboard/Post Photos.png')}}"  class="img-fluid"/>
                                                         <ul class="comment-list">
                                                             <li>
-                                                                <img src="assets/images/dashboard/ic_comment.png"  class="img-fluid"/><span>25 Comments</span>
+                                                                <img src="{{asset('asset/images/dashboard/ic_comment.png')}}"  class="img-fluid"/><span>25 Comments</span>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -558,7 +566,7 @@
                                                 <div class="row mt-3">
                                                     <div class="col-12">
                                                         <ul class="what-post d-flex justify-content-between gap-2">
-                                                            <li class="what-post-item"><img src="assets/images/dashboard/Group 22.png"  class="img-fluid"/></li>
+                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/Group 22.png')}}"  class="img-fluid"/></li>
                                                             <li class="what-post-item what-post-input comment-input"><input type="text" name="what" placeholder="Write your comment…"></li>
                                                         </ul>
                                                     </div>
@@ -570,11 +578,11 @@
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <ul class="what-post d-flex justify-content-between gap-2">
-                                                            <li class="what-post-item"><img src="assets/images/dashboard/PP1.png"  class="img-fluid"/></li>
+                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/PP1.png')}}"  class="img-fluid"/></li>
                                                             <li class="what-post-item post-name"><h4 class="post-title">RMRL</h4>
                                                                                                     <p>12 April at 09.28 PM</p>
                                                             </li>
-                                                            <li class="what-post-item"><img src="assets/images/dashboard/ic_Image.png"  class="img-fluid"/></li>
+                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/ic_Image.png')}}"  class="img-fluid"/></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -587,10 +595,10 @@
                                                     <div class="col-12">
                                                         <p class="post-status">Recent</p>
                                                         <p class="post-desc">Images.... Fashion For Men</p>
-                                                        <img class="my-3 img-fluid" src="assets/images/dashboard/Post Photos.png"  class="img-fluid"/>
+                                                        <img class="my-3 img-fluid" src="{{asset('asset/images/dashboard/Post Photos.png')}}"  class="img-fluid"/>
                                                         <ul class="comment-list">
                                                             <li>
-                                                                <img src="assets/images/dashboard/ic_comment.png" /><span>25 Comments</span>
+                                                                <img src="{{asset('asset/images/dashboard/ic_comment.png')}}" /><span>25 Comments</span>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -598,7 +606,7 @@
                                                 <div class="row mt-3">
                                                     <div class="col-12">
                                                         <ul class="what-post d-flex justify-content-between gap-2">
-                                                            <li class="what-post-item"><img src="assets/images/dashboard/Group 22.png"  class="img-fluid"/></li>
+                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/Group 22.png')}}"  class="img-fluid"/></li>
                                                             <li class="what-post-item what-post-input comment-input"><input type="text" name="what" placeholder="Write your comment…"></li>
                                                         </ul>
                                                     </div>
@@ -610,11 +618,11 @@
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <ul class="what-post d-flex justify-content-between gap-2">
-                                                            <li class="what-post-item"><img src="assets/images/dashboard/PP1.png"  class="img-fluid"/></li>
+                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/PP1.png')}}"  class="img-fluid"/></li>
                                                             <li class="what-post-item post-name"><h4 class="post-title">RMRL</h4>
                                                                                                     <p>12 April at 09.28 PM</p>
                                                             </li>
-                                                            <li class="what-post-item"><img src="assets/images/dashboard/ic_Image.png"  class="img-fluid"/></li>
+                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/ic_Image.png')}}"  class="img-fluid"/></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -627,10 +635,10 @@
                                                     <div class="col-12">
                                                         <p class="post-status">Recent</p>
                                                         <p class="post-desc">Images.... Fashion For Men</p>
-                                                        <img class="my-3 img-fluid" src="assets/images/dashboard/Post Photos.png"  class="img-fluid"/>
+                                                        <img class="my-3 img-fluid" src="{{asset('asset/images/dashboard/Post Photos.png')}}"  class="img-fluid"/>
                                                         <ul class="comment-list">
                                                             <li>
-                                                                <img src="assets/images/dashboard/ic_comment.png"  class="img-fluid"/><span>25 Comments</span>
+                                                                <img src="{{asset('asset/images/dashboard/ic_comment.png')}}"  class="img-fluid"/><span>25 Comments</span>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -638,7 +646,7 @@
                                                 <div class="row mt-3">
                                                     <div class="col-12">
                                                         <ul class="what-post d-flex justify-content-between gap-2">
-                                                            <li class="what-post-item"><img src="assets/images/dashboard/Group 22.png"  class="img-fluid"/></li>
+                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/Group 22.png')}}"  class="img-fluid"/></li>
                                                             <li class="what-post-item what-post-input comment-input"><input type="text" name="what" placeholder="Write your comment…"></li>
                                                         </ul>
                                                     </div>
@@ -671,11 +679,11 @@
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <div class="text-center">
-                                                            <img class="img-fluid" src="assets/images/dashboard/Image.png" class="img-fluid" />
+                                                            <img class="img-fluid" src="{{asset('asset/images/dashboard/Image.png')}}" class="img-fluid" />
                                                         </div>
                                                         <ul class="comment-list">
                                                             <li class="text-center">
-                                                                <img src="assets/images/dashboard/ic_comment.png" /><span>25 Comments</span>
+                                                                <img src="{{asset('asset/images/dashboard/ic_comment.png')}}" /><span>25 Comments</span>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -697,11 +705,11 @@
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <div class="text-center">
-                                                            <img class="img-fluid" src="assets/images/dashboard/Image-women.png" class="img-fluid" />
+                                                            <img class="img-fluid" src="{{asset('asset/images/dashboard/Image-women.png')}}" class="img-fluid" />
                                                         </div>
                                                         <ul class="comment-list">
                                                             <li class="text-center">
-                                                                <img src="assets/images/dashboard/ic_comment.png" /><span>25 Comments</span>
+                                                                <img src="{{asset('asset/images/dashboard/ic_comment.png')}}" /><span>25 Comments</span>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -723,11 +731,11 @@
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <div class="text-center">
-                                                            <img class="img-fluid" src="assets/images/dashboard/Image-Nature.png" class="img-fluid" />
+                                                            <img class="img-fluid" src="{{asset('asset/images/dashboard/Image-Nature.png')}}" class="img-fluid" />
                                                         </div>
                                                         <ul class="comment-list">
                                                             <li class="text-center">
-                                                                <img src="assets/images/dashboard/ic_comment.png" /><span>25 Comments</span>
+                                                                <img src="{{asset('asset/images/dashboard/ic_comment.png')}}" /><span>25 Comments</span>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -770,7 +778,7 @@
                                                     <div class="col-12">
                                                         <div class="chat-post d-flex justify-content-between gap-2">
                                                             <div class="chat-post-item d-flex justify-content-between gap-2"> 
-                                                                <div class="chat-img"><img src="assets/images/dashboard/Initial_PP_32px.png"  class="img-fluid"/></div>
+                                                                <div class="chat-img"><img src="{{asset('asset/images/dashboard/Initial_PP_32px.png')}}"  class="img-fluid"/></div>
                                                                 <div class="chat-name"><p class="chat-title">Cynthia Cox </br><span>Hello RMRL...</span></p></div>
                                                             </div>
                                                         
@@ -785,7 +793,7 @@
                                                     <div class="col-12">
                                                         <div class="chat-post d-flex justify-content-between gap-2">
                                                             <div class="chat-post-item d-flex justify-content-between gap-2"> 
-                                                                <div class="chat-img"><img src="assets/images/dashboard/Initial_PP_32px-2.png"  class="img-fluid"/></div>
+                                                                <div class="chat-img"><img src="{{asset('asset/images/dashboard/Initial_PP_32px-2.png')}}"  class="img-fluid"/></div>
                                                                 <div class="chat-name"><p class="chat-title">John Doe </br><span>Hello RMRL...</span></p></div>
                                                             </div>
                                                         
@@ -800,7 +808,7 @@
                                                     <div class="col-12">
                                                         <div class="chat-post d-flex justify-content-between gap-2">
                                                             <div class="chat-post-item d-flex justify-content-between gap-2"> 
-                                                                <div class="chat-img"><img src="assets/images/dashboard/Initial_PP_32px-3.png"  class="img-fluid"/></div>
+                                                                <div class="chat-img"><img src="{{asset('asset/images/dashboard/Initial_PP_32px-3.png')}}"  class="img-fluid"/></div>
                                                                 <div class="chat-name"><p class="chat-title">Elley Cruz </br><span>Hello RMRL...</span></p></div>
                                                             </div>
                                                         
@@ -815,7 +823,7 @@
                                                     <div class="col-12">
                                                         <div class="chat-post d-flex justify-content-between gap-2">
                                                             <div class="chat-post-item d-flex justify-content-between gap-2"> 
-                                                                <div class="chat-img"><img src="assets/images/dashboard/Initial_PP_32px-4.png"  class="img-fluid"/></div>
+                                                                <div class="chat-img"><img src="{{asset('asset/images/dashboard/Initial_PP_32px-4.png')}}"  class="img-fluid"/></div>
                                                                 <div class="chat-name"><p class="chat-title">Cynthia Cox </br><span>Hello RMRL...</span></p></div>
                                                             </div>
                                                         
@@ -830,7 +838,7 @@
                                                     <div class="col-12">
                                                         <div class="chat-post d-flex justify-content-between gap-2">
                                                             <div class="chat-post-item d-flex justify-content-between gap-2"> 
-                                                                <div class="chat-img"><img src="assets/images/dashboard/Group 22-b.png"  class="img-fluid"/></div>
+                                                                <div class="chat-img"><img src="{{asset('asset/images/dashboard/Group 22-b.png')}}"  class="img-fluid"/></div>
                                                                 <div class="chat-name"><p class="chat-title">Marshall </br><span>Hello RMRL...</span></p></div>
                                                             </div>
                                                         
@@ -845,7 +853,7 @@
                                                     <div class="col-12">
                                                         <div class="chat-post d-flex justify-content-between gap-2">
                                                             <div class="chat-post-item d-flex justify-content-between gap-2"> 
-                                                                <div class="chat-img"><img src="assets/images/dashboard/Initial_PP_32px-6.png"  class="img-fluid"/></div>
+                                                                <div class="chat-img"><img src="{{asset('asset/images/dashboard/Initial_PP_32px-6.png')}}"  class="img-fluid"/></div>
                                                                 <div class="chat-name"><p class="chat-title">Illiana Doe </br><span>Hello RMRL...</span></p></div>
                                                             </div>
                                                         
@@ -860,7 +868,7 @@
                                                     <div class="col-12">
                                                         <div class="chat-post d-flex justify-content-between gap-2">
                                                             <div class="chat-post-item d-flex justify-content-between gap-2"> 
-                                                                <div class="chat-img"><img src="assets/images/dashboard/Initial_PP_32px-7.png"  class="img-fluid"/></div>
+                                                                <div class="chat-img"><img src="{{asset('asset/images/dashboard/Initial_PP_32px-7.png')}}"  class="img-fluid"/></div>
                                                                 <div class="chat-name"><p class="chat-title">Cynthia Cox </br><span>Hello RMRL...</span></p></div>
                                                             </div>
                                                         
@@ -875,7 +883,7 @@
                                                     <div class="col-12">
                                                         <div class="chat-post d-flex justify-content-between gap-2">
                                                             <div class="chat-post-item d-flex justify-content-between gap-2"> 
-                                                                <div class="chat-img"><img src="assets/images/dashboard/Initial_PP_32px-8.png"  class="img-fluid"/></div>
+                                                                <div class="chat-img"><img src="{{asset('asset/images/dashboard/Initial_PP_32px-8.png')}}"  class="img-fluid"/></div>
                                                                 <div class="chat-name"><p class="chat-title">Rehana Alie </br><span>Hello RMRL...</span></p></div>
                                                             </div>
                                                         
@@ -890,7 +898,7 @@
                                                     <div class="col-12">
                                                         <div class="chat-post d-flex justify-content-between gap-2">
                                                             <div class="chat-post-item d-flex justify-content-between gap-2"> 
-                                                                <div class="chat-img"><img src="assets/images/dashboard/Initial_PP_32px-9.png"  class="img-fluid"/></div>
+                                                                <div class="chat-img"><img src="{{asset('asset/images/dashboard/Initial_PP_32px-9.png')}}"  class="img-fluid"/></div>
                                                                 <div class="chat-name"><p class="chat-title">Elley Cruz </br><span>Hello RMRL...</span></p></div>
                                                             </div>
                                                         
@@ -905,7 +913,7 @@
                                                     <div class="col-12">
                                                         <div class="chat-post d-flex justify-content-between gap-2">
                                                             <div class="chat-post-item d-flex justify-content-between gap-2"> 
-                                                                <div class="chat-img"><img src="assets/images/dashboard/Group 22-c.png"  class="img-fluid"/></div>
+                                                                <div class="chat-img"><img src="{{asset('asset/images/dashboard/Group 22-c.png')}}"  class="img-fluid"/></div>
                                                                 <div class="chat-name"><p class="chat-title">Cynthia Cox </br><span>Hello RMRL...</span></p></div>
                                                             </div>
                                                         
@@ -920,7 +928,7 @@
                                                     <div class="col-12">
                                                         <div class="chat-post d-flex justify-content-between gap-2">
                                                             <div class="chat-post-item d-flex justify-content-between gap-2"> 
-                                                                <div class="chat-img"><img src="assets/images/dashboard/Initial_PP_32px-11.png"  class="img-fluid"/></div>
+                                                                <div class="chat-img"><img src="{{asset('asset/images/dashboard/Initial_PP_32px-11.png')}}"  class="img-fluid"/></div>
                                                                 <div class="chat-name"><p class="chat-title">Tom Cruz </br><span>Hello RMRL...</span></p></div>
                                                             </div>
                                                         
@@ -935,7 +943,7 @@
                                                     <div class="col-12">
                                                         <div class="chat-post d-flex justify-content-between gap-2">
                                                             <div class="chat-post-item d-flex justify-content-between gap-2"> 
-                                                                <div class="chat-img"><img src="assets/images/dashboard/Initial_PP_32px-12.png"  class="img-fluid"/></div>
+                                                                <div class="chat-img"><img src="{{asset('asset/images/dashboard/Initial_PP_32px-12.png')}}"  class="img-fluid"/></div>
                                                                 <div class="chat-name"><p class="chat-title">Illiana Doe </br><span>Hello RMRL...</span></p></div>
                                                             </div>
                                                         
@@ -1051,7 +1059,7 @@
                                 <div class="d-flex align-items-start">
                                     <div class="position-relative me-2">
                                         <span class="user-status"></span>
-                                        <img src="../assets/images/users/avatar-10.jpg" class="rounded-circle avatar-sm" alt="user-pic">
+                                        <img src="{{asset('asset/images/users/avatar-10.jp')}}g" class="rounded-circle avatar-sm" alt="user-pic">
                                     </div>
                                     <div class="flex-1 overflow-hidden">
                                         <h6 class="mt-0 mb-1 font-14">Andrew Mackie</h6>
@@ -1066,7 +1074,7 @@
                                 <div class="d-flex align-items-start">
                                     <div class="position-relative me-2">
                                         <span class="user-status"></span>
-                                        <img src="../assets/images/users/avatar-1.jpg" class="rounded-circle avatar-sm" alt="user-pic">
+                                        <img src="{{asset('asset/images/users/avatar-1.jpg')}}" class="rounded-circle avatar-sm" alt="user-pic">
                                     </div>
                                     <div class="flex-1 overflow-hidden">
                                         <h6 class="mt-0 mb-1 font-14">Rory Dalyell</h6>
@@ -1081,7 +1089,7 @@
                                 <div class="d-flex align-items-start">
                                     <div class="position-relative me-2">
                                         <span class="user-status busy"></span>
-                                        <img src="../assets/images/users/avatar-9.jpg" class="rounded-circle avatar-sm" alt="user-pic">
+                                        <img src="{{asset('asset/images/users/avatar-9.jpg')}}" class="rounded-circle avatar-sm" alt="user-pic">
                                     </div>
                                     <div class="flex-1 overflow-hidden">
                                         <h6 class="mt-0 mb-1 font-14">Jaxon Dunhill</h6>
@@ -1100,7 +1108,7 @@
                                 <div class="d-flex align-items-start">
                                     <div class="position-relative me-2">
                                         <span class="user-status online"></span>
-                                        <img src="../assets/images/users/avatar-2.jpg" class="rounded-circle avatar-sm" alt="user-pic">
+                                        <img src="{{asset('asset/images/users/avatar-2.jpg')}}" class="rounded-circle avatar-sm" alt="user-pic">
                                     </div>
                                     <div class="flex-1 overflow-hidden">
                                         <h6 class="mt-0 mb-1 font-14">Jackson Therry</h6>
@@ -1115,7 +1123,7 @@
                                 <div class="d-flex align-items-start">
                                     <div class="position-relative me-2">
                                         <span class="user-status away"></span>
-                                        <img src="../assets/images/users/avatar-4.jpg" class="rounded-circle avatar-sm" alt="user-pic">
+                                        <img src="{{asset('asset/images/users/avatar-4.jpg')}}" class="rounded-circle avatar-sm" alt="user-pic">
                                     </div>
                                     <div class="flex-1 overflow-hidden">
                                         <h6 class="mt-0 mb-1 font-14">Charles Deakin</h6>
@@ -1130,7 +1138,7 @@
                                 <div class="d-flex align-items-start">
                                     <div class="position-relative me-2">
                                         <span class="user-status online"></span>
-                                        <img src="../assets/images/users/avatar-5.jpg" class="rounded-circle avatar-sm" alt="user-pic">
+                                        <img src="{{asset('asset/images/users/avatar-5.jpg')}}" class="rounded-circle avatar-sm" alt="user-pic">
                                     </div>
                                     <div class="flex-1 overflow-hidden">
                                         <h6 class="mt-0 mb-1 font-14">Ryan Salting</h6>
@@ -1145,7 +1153,7 @@
                                 <div class="d-flex align-items-start">
                                     <div class="position-relative me-2">
                                         <span class="user-status online"></span>
-                                        <img src="../assets/images/users/avatar-6.jpg" class="rounded-circle avatar-sm" alt="user-pic">
+                                        <img src="{{asset('asset/images/users/avatar-6.jpg')}}" class="rounded-circle avatar-sm" alt="user-pic">
                                     </div>
                                     <div class="flex-1 overflow-hidden">
                                         <h6 class="mt-0 mb-1 font-14">Sean Howse</h6>
@@ -1160,7 +1168,7 @@
                                 <div class="d-flex align-items-start">
                                     <div class="position-relative me-2">
                                         <span class="user-status busy"></span>
-                                        <img src="../assets/images/users/avatar-7.jpg" class="rounded-circle avatar-sm" alt="user-pic">
+                                        <img src="{{asset('asset/images/users/avatar-7.jpg')}}" class="rounded-circle avatar-sm" alt="user-pic">
                                     </div>
                                     <div class="flex-1 overflow-hidden">
                                         <h6 class="mt-0 mb-1 font-14">Dean Coward</h6>
@@ -1175,7 +1183,7 @@
                                 <div class="d-flex align-items-start">
                                     <div class="position-relative me-2">
                                         <span class="user-status away"></span>
-                                        <img src="../assets/images/users/avatar-8.jpg" class="rounded-circle avatar-sm" alt="user-pic">
+                                        <img src="{{asset('asset/images/users/avatar-8.jpg')}}" class="rounded-circle avatar-sm" alt="user-pic">
                                     </div>
                                     <div class="flex-1 overflow-hidden">
                                         <h6 class="mt-0 mb-1 font-14">Hayley East</h6>

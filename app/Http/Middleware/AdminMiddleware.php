@@ -18,7 +18,7 @@ class AdminMiddleware
      */
     public function handle(Request $request, Closure $next)
     {
-        if (Auth::check() && auth()->user()->role_id == UserTypes::Admin) {
+        if (Auth::check() && auth()->user()->role_id == UserTypes::User) {
             return $next($request);
         }
 
