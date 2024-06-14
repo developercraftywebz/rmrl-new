@@ -9,7 +9,7 @@
         <div class="admin-box-a">
             <div class="admin-left-a">
                 <ul class="list-a admin-link-a">
-                    <li><a href="{{ route('home') }}"><i class="ri-home-4-fill"></i></a></li>
+                    <li><a href="#"><i class="ri-home-4-fill"></i></a></li>
                     <li><a href="#!"><i class="ri-checkbox-fill"></i></a></li>
                     <li><a href="#!"><i class="ri-bookmark-fill"></i></a></li>
                 </ul>
@@ -29,9 +29,9 @@
                         </p>
                     </a>
                     <ul class="list-a dropdown-menu-a shadow">
-                        <li><a class="dropdown-item" href="{{ route('home') }}"><i class="ri-home-5-fill"></i>
+                        <li><a class="dropdown-item" href="#"><i class="ri-home-5-fill"></i>
                                 Home</a></li>
-                        <li><a class="dropdown-item" href="{{ route('home') }}"><i class="ri-home-5-fill"></i>
+                        <li><a class="dropdown-item" href="#"><i class="ri-home-5-fill"></i>
                                 Stream</a></li>
                         <li><a class="dropdown-item" href="{{ route('user.about') }}"><i
                                     class="ri-account-circle-fill"></i> About</a>

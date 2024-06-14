@@ -6,7 +6,7 @@
             <div class="container w-100 mb-5">
                 <nav aria-label="breadcrumb" class="my-2">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="{{ route('home') }}">Dashboard</a></li>
+                        <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Users</li>
                     </ol>
                 </nav>

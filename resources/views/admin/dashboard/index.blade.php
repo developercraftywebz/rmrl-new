@@ -109,7 +109,7 @@
                 </div>
 
                 <div id="categoryForm" class="d-none p-4">
-                    <form method="POST" action="{{ route('home') }}">
+                    <form method="POST" action="#">
                         @csrf
                         <div>
                             <label for="category" class="form-label">Create an Album</label>

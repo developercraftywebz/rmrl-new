@@ -151,7 +151,7 @@ use App\Enums\UserTypes;
                         <!--<li class="menu-title mt-2">Apps</li>-->
 
                         <li>
-                            <a href="{{ route('home') }}">
+                            <a href="#">
                                 <i class="ri-home-4-fill"></i>
                                 <span> Home </span>
                             </a>

@@ -12,7 +12,7 @@ use App\Enums\UserTypes;
             <div class="container w-100">
                 <nav aria-label="breadcrumb" class="my-2">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
                         <li class="breadcrumb-item"><a href="{{ route('plans.index') }}">Plans</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Add Plan
                         </li>

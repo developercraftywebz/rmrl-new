@@ -319,13 +319,13 @@
         <div class="profile-other-links">
             <ul class="list-a profile-other-ul">
                 <li>
-                    <a class="dropdown-item" href="{{ route('home') }}">
+                    <a class="dropdown-item" href="#">
                         <i class="ri-home-5-fill"></i>
                         Home
                     </a>
                     </li>
                 <li>
-                    <a class="dropdown-item" href="{{ route('home') }}">
+                    <a class="dropdown-item" href="#">
                         <i class="ri-home-5-fill"></i>
                         Stream
                     </a>
