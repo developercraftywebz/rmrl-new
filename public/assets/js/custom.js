@@ -201,3 +201,30 @@ $('.image-gallery-2').slick({
   dots: true,
   arrows: true
 });
+
+// $(".dummy-input").on("change", function () {
+//   if ($(".dummy-input:checked").val() == "dummy1") {
+//       $(".div2").hide();
+//       $(".div3").hide();
+//   } else {
+//       $(".div1").show();
+//   }
+// });
+
+// $(".dummy-input").on("change", function () {
+//   if ($(".dummy-input:checked").val() == "dummy2") {
+//       $(".div1").hide();
+//       $(".div3").hide();
+//   } else {
+//       $(".div2").show();
+//   }
+// });
+
+// $(".dummy-input").on("change", function () {
+//   if ($(".dummy-input:checked").val() == "dummy3") {
+//       $(".div1").hide();
+//       $(".div2").hide();
+//   } else {
+//       $(".div3").show();
+//   }
+// });

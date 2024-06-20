@@ -516,8 +516,8 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="row">
-                                    <div class="col-xl-5 col-4">
-                                        <div class="post-div scrollbar mt-3" id="style-3">
+                                    <div class="col-xl-8 col-8">
+                                        <div class="post-div mt-3" id="style-3">
                                             <div class="whatpost-box">
                                                 <div class="row">
                                                     <div class="col-12">
@@ -527,9 +527,9 @@
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <ul class="what-post d-flex justify-content-between gap-2">
-                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/PP1.png')}}"  class="img-fluid"/></li>
-                                                            <li class="what-post-item what-post-input"><input type="text" name="what" placeholder="What’s on your mind?"></li>
-                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/ic_Image.png')}}"  class="img-fluid"/></li>
+                                                            <li class="what-post-item w-5"><img src="{{asset('asset/images/dashboard/PP1.png')}}"  class="img-fluid"/></li>
+                                                            <li class="what-post-item w-95 what-post-input"><input type="text" name="what" placeholder="What’s on your mind?"></li>
+                                                            <!-- <li class="what-post-item w-5"><img src="{{asset('asset/images/dashboard/ic_Image.png')}}"  class="img-fluid"/></li> -->
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -538,11 +538,11 @@
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <ul class="what-post d-flex justify-content-between gap-2">
-                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/PP1.png')}}"  class="img-fluid"/></li>
-                                                            <li class="what-post-item post-name"><h4 class="post-title">RMRL</h4>
+                                                            <li class="what-post- w-5"><img src="{{asset('asset/images/dashboard/PP1.png')}}"  class="img-fluid"/></li>
+                                                            <li class="what-post-item post-name w-95"><h4 class="post-title">RMRL</h4>
                                                                                                     <p>12 April at 09.28 PM</p>
                                                             </li>
-                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/ic_Image.png')}}"  class="img-fluid"/></li>
+                                                            <!-- <li class="what-post-item w-5"><img src="{{asset('asset/images/dashboard/ic_Image.png')}}"  class="img-fluid"/></li> -->
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -555,8 +555,28 @@
                                                     <div class="col-12">
                                                         <p class="post-status">Recent</p>
                                                         <p class="post-desc">Images.... Fashion For Men</p>
-                                                        <img class="my-3 img-fluid" src="{{asset('asset/images/dashboard/Post Photos.png')}}"  class="img-fluid"/>
-                                                        <ul class="comment-list">
+                                                        <img class="my-3 img-fluid" src="{{asset('asset/images/dashboard/Post Photos-04.png')}}"  class="img-fluid"/>
+                                                        <h3 class="post-desc-head">It is a long established fact that a reader will be 
+                                                        distracted by the readable</h3>
+                                                        <p class="post-desc-p">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content 
+here, content here', making it look like readable English.</br></br>
+
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content 
+here, content here', making it look like readable English.</br></br>
+
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content 
+here, content here', making it look like readable English.</br></br>
+
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content 
+here, content here', making it look like readable English.</p>
+                                                        <ul class="comment-list d-flex gap-3">
+                                                            <li>
+                                                                <img src="{{asset('asset/images/dashboard/date.png')}}"  class="img-fluid"/><span>Posted By: 6/10/2024</span>
+                                                            </li>
                                                             <li>
                                                                 <img src="{{asset('asset/images/dashboard/ic_comment.png')}}"  class="img-fluid"/><span>25 Comments</span>
                                                             </li>
@@ -566,183 +586,15 @@
                                                 <div class="row mt-3">
                                                     <div class="col-12">
                                                         <ul class="what-post d-flex justify-content-between gap-2">
-                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/Group 22.png')}}"  class="img-fluid"/></li>
-                                                            <li class="what-post-item what-post-input comment-input"><input type="text" name="what" placeholder="Write your comment…"></li>
+                                                            <li class="what-post-item w-5"><img src="{{asset('asset/images/dashboard/Group 22.png')}}"  class="img-fluid"/></li>
+                                                            <li class="what-post-item w-95 what-post-input comment-input"><input type="text" name="what" placeholder="Write your comment…"></li>
                                                         </ul>
                                                     </div>
                                                 </div>
                                                                                                     
 
                                             </div>
-                                            <div class="post-box mt-3">
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <ul class="what-post d-flex justify-content-between gap-2">
-                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/PP1.png')}}"  class="img-fluid"/></li>
-                                                            <li class="what-post-item post-name"><h4 class="post-title">RMRL</h4>
-                                                                                                    <p>12 April at 09.28 PM</p>
-                                                            </li>
-                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/ic_Image.png')}}"  class="img-fluid"/></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                    </div>
-                                                </div>
-                                                    
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <p class="post-status">Recent</p>
-                                                        <p class="post-desc">Images.... Fashion For Men</p>
-                                                        <img class="my-3 img-fluid" src="{{asset('asset/images/dashboard/Post Photos.png')}}"  class="img-fluid"/>
-                                                        <ul class="comment-list">
-                                                            <li>
-                                                                <img src="{{asset('asset/images/dashboard/ic_comment.png')}}" /><span>25 Comments</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="row mt-3">
-                                                    <div class="col-12">
-                                                        <ul class="what-post d-flex justify-content-between gap-2">
-                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/Group 22.png')}}"  class="img-fluid"/></li>
-                                                            <li class="what-post-item what-post-input comment-input"><input type="text" name="what" placeholder="Write your comment…"></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                                                                    
-
-                                            </div>
-                                            <div class="post-box mt-3">
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <ul class="what-post d-flex justify-content-between gap-2">
-                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/PP1.png')}}"  class="img-fluid"/></li>
-                                                            <li class="what-post-item post-name"><h4 class="post-title">RMRL</h4>
-                                                                                                    <p>12 April at 09.28 PM</p>
-                                                            </li>
-                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/ic_Image.png')}}"  class="img-fluid"/></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                    </div>
-                                                </div>
-                                                    
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <p class="post-status">Recent</p>
-                                                        <p class="post-desc">Images.... Fashion For Men</p>
-                                                        <img class="my-3 img-fluid" src="{{asset('asset/images/dashboard/Post Photos.png')}}"  class="img-fluid"/>
-                                                        <ul class="comment-list">
-                                                            <li>
-                                                                <img src="{{asset('asset/images/dashboard/ic_comment.png')}}"  class="img-fluid"/><span>25 Comments</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="row mt-3">
-                                                    <div class="col-12">
-                                                        <ul class="what-post d-flex justify-content-between gap-2">
-                                                            <li class="what-post-item"><img src="{{asset('asset/images/dashboard/Group 22.png')}}"  class="img-fluid"/></li>
-                                                            <li class="what-post-item what-post-input comment-input"><input type="text" name="what" placeholder="Write your comment…"></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                                                                    
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-3 col-4">
-                                        <div class="post-div mt-3">
-                                            <div class="whatpost-box cat-head-box">
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <h4 class="whatpost-title">Categories</h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cat-box">
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <ul class="what-post cat-post d-flex justify-content-between gap-2 align-items-end">
-                                                            <li class="what-post-item post-name"><h4 class="post-title">Photos</h4>
-                                                                                                    <p>RMRL</p>
-                                                            </li>
-                                                            <li class="what-post-item post-a"><a href="#">See All</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>                                                    
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <div class="text-center">
-                                                            <img class="img-fluid" src="{{asset('asset/images/dashboard/Image.png')}}" class="img-fluid" />
-                                                        </div>
-                                                        <ul class="comment-list">
-                                                            <li class="text-center">
-                                                                <img src="{{asset('asset/images/dashboard/ic_comment.png')}}" /><span>25 Comments</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                                                                    
-
-                                            </div>
-                                            <div class="cat-box">
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <ul class="what-post cat-post d-flex justify-content-between gap-2 align-items-end">
-                                                            <li class="what-post-item post-name"><h4 class="post-title">Videos</h4>
-                                                                                                    <p>RMRL</p>
-                                                            </li>
-                                                            <li class="what-post-item post-a"><a href="#">See All</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>                                                    
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <div class="text-center">
-                                                            <img class="img-fluid" src="{{asset('assets/images/dashboard/Group-39.png')}}" class="img-fluid" />
-                                                        </div>
-                                                        <ul class="comment-list">
-                                                            <li class="text-center">
-                                                                <img src="{{asset('asset/images/dashboard/ic_comment.png')}}" /><span>25 Comments</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                                                                    
-
-                                            </div>
-                                            <div class="cat-box">
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <ul class="what-post cat-post d-flex justify-content-between gap-2 align-items-end">
-                                                            <li class="what-post-item post-name"><h4 class="post-title">News & Blogs</h4>
-                                                                                                    <p>RMRL</p>
-                                                            </li>
-                                                            <li class="what-post-item post-a"><a href="#">See All</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>                                                    
-                                                <div class="row">
-                                                    <div class="col-12">
-                                                        <div class="text-center">
-                                                            <img class="img-fluid" src="{{asset('asset/images/dashboard/Image-Nature.png')}}" class="img-fluid" />
-                                                        </div>
-                                                        <ul class="comment-list">
-                                                            <li class="text-center">
-                                                                <img src="{{asset('asset/images/dashboard/ic_comment.png')}}" /><span>25 Comments</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                                                                    
-
-                                            </div>
+                        
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-4">

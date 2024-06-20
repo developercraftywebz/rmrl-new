@@ -24,7 +24,11 @@ Route::get('/', function () {
 
 
 Auth::routes();
-// Route::post('/profile', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/test1', [App\Http\Controllers\TestController::class, 'test1'])->name('test1');
+Route::get('/test2', [App\Http\Controllers\TestController::class, 'test2'])->name('test2');
+Route::get('/test3', [App\Http\Controllers\TestController::class, 'test3'])->name('test3');
+Route::get('/test4', [App\Http\Controllers\TestController::class, 'test4'])->name('test4');
 
 // Functions for admins only
 Route::middleware(['admin.user'])->group(function () {

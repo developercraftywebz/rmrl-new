@@ -555,7 +555,7 @@
                                                     <div class="col-12">
                                                         <p class="post-status">Recent</p>
                                                         <p class="post-desc">Images.... Fashion For Men</p>
-                                                        <img class="my-3 img-fluid" src="{{asset('asset/images/dashboard/Post Photos.png')}}"  class="img-fluid"/>
+                                                        <img class="my-3 img-fluid" src="{{asset('asset/images/dashboard/PostPhoto-01.png')}}"  class="img-fluid"/>
                                                         <ul class="comment-list">
                                                             <li>
                                                                 <img src="{{asset('asset/images/dashboard/ic_comment.png')}}"  class="img-fluid"/><span>25 Comments</span>
@@ -595,7 +595,7 @@
                                                     <div class="col-12">
                                                         <p class="post-status">Recent</p>
                                                         <p class="post-desc">Images.... Fashion For Men</p>
-                                                        <img class="my-3 img-fluid" src="{{asset('asset/images/dashboard/Post Photos.png')}}"  class="img-fluid"/>
+                                                        <img class="my-3 img-fluid" src="{{asset('asset/images/dashboard/PostPhoto-02.png')}}"  class="img-fluid"/>
                                                         <ul class="comment-list">
                                                             <li>
                                                                 <img src="{{asset('asset/images/dashboard/ic_comment.png')}}" /><span>25 Comments</span>
@@ -661,7 +661,7 @@
                                             <div class="whatpost-box cat-head-box">
                                                 <div class="row">
                                                     <div class="col-12">
-                                                        <h4 class="whatpost-title">Categories</h4>
+                                                        <h4 class="whatpost-title">Photos</h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -669,8 +669,11 @@
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <ul class="what-post cat-post d-flex justify-content-between gap-2 align-items-end">
-                                                            <li class="what-post-item post-name"><h4 class="post-title">Photos</h4>
-                                                                                                    <p>RMRL</p>
+                                                            <li class="what-post-item post-name">
+                                                                <input type="radio" id="test1" name="radio-group" checked>
+                                                                <label for="test1" class="post-title">Portraits</label>
+                                                                <p class="mt-2">RMRL</p>
+                                                                 
                                                             </li>
                                                             <li class="what-post-item post-a"><a href="#">See All</a></li>
                                                         </ul>
@@ -679,7 +682,7 @@
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <div class="text-center">
-                                                            <img class="img-fluid" src="{{asset('asset/images/dashboard/Image.png')}}" class="img-fluid" />
+                                                            <img class="img-fluid" src="{{asset('asset/images/dashboard/Image-04.png')}}" class="img-fluid" />
                                                         </div>
                                                         <ul class="comment-list">
                                                             <li class="text-center">
@@ -695,8 +698,11 @@
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <ul class="what-post cat-post d-flex justify-content-between gap-2 align-items-end">
-                                                            <li class="what-post-item post-name"><h4 class="post-title">Videos</h4>
-                                                                                                    <p>RMRL</p>
+                                                            <li class="what-post-item post-name">
+                                                                <input type="radio" id="test2" name="radio-group">
+                                                                <label for="test2" class="post-title">Wide Angel</label>
+                                                                <p class="mt-2">RMRL</p>
+                                                                 
                                                             </li>
                                                             <li class="what-post-item post-a"><a href="#">See All</a></li>
                                                         </ul>
@@ -705,7 +711,7 @@
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <div class="text-center">
-                                                            <img class="img-fluid" src="{{asset('assets/images/dashboard/Group-39.png')}}" class="img-fluid" />
+                                                            <img class="img-fluid" src="{{asset('asset/images/dashboard/Image-05.png')}}" class="img-fluid" />
                                                         </div>
                                                         <ul class="comment-list">
                                                             <li class="text-center">
@@ -721,8 +727,11 @@
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <ul class="what-post cat-post d-flex justify-content-between gap-2 align-items-end">
-                                                            <li class="what-post-item post-name"><h4 class="post-title">News & Blogs</h4>
-                                                                                                    <p>RMRL</p>
+                                                            <li class="what-post-item post-name">
+                                                                <input type="radio" id="test3" name="radio-group">
+                                                                <label for="test3" class="post-title">Dummy Category</label>
+                                                                <p class="mt-2">RMRL</p>
+                                                                 
                                                             </li>
                                                             <li class="what-post-item post-a"><a href="#">See All</a></li>
                                                         </ul>
@@ -731,7 +740,7 @@
                                                 <div class="row">
                                                     <div class="col-12">
                                                         <div class="text-center">
-                                                            <img class="img-fluid" src="{{asset('asset/images/dashboard/Image-Nature.png')}}" class="img-fluid" />
+                                                            <img class="img-fluid" src="{{asset('asset/images/dashboard/Image-06.png')}}" class="img-fluid" />
                                                         </div>
                                                         <ul class="comment-list">
                                                             <li class="text-center">

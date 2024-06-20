@@ -210,7 +210,7 @@ footer.authFooter p.text-muted a:hover {
     display: none;
 }
 
-
+/* Responisve */
 @media only screen and (max-width: 767px){
 
 .authPage .card-body {
